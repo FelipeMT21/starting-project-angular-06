@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-sever-status',
+  selector: 'app-server-status',
   standalone: true,
   imports: [],
   templateUrl: './sever-status.component.html',
