@@ -1,13 +1,13 @@
 import { Component, Input } from '@angular/core';
 
 @Component({
-  selector: 'app-button',
+  selector: 'button[appButton]',
   standalone: true,
   imports: [],
   templateUrl: './button.component.html',
   styleUrl: './button.component.css'
 })
 export class ButtonComponent {
-  @Input({ required: true }) text!: string;
-  @Input({ required: true }) icon!: string;
+  // @Input({ required: true }) text!: string;
+  // @Input({ required: true }) icon!: string;
 }
