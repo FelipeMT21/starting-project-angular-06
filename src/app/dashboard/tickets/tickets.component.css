@@ -31,3 +31,7 @@
     flex-direction: row;
   }
 }
+
+#new-ticket {
+  width: 15rem;
+}
